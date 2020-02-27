@@ -1,9 +1,102 @@
-.title {
-  color: red;
-  font-size: 40px; }
-
 div {
   color: black;
   font-size: 20px; }
+
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Fira Sans'; }
+
+body {
+  width: 100%;
+  height: 100%; }
+
+.map, .window {
+  width: 100%;
+  height: 100%; }
+
+.rewiew {
+  background-color: white;
+  width: 380px;
+  height: 530px;
+  border-radius: 3%;
+  display: block;
+  position: absolute;
+  z-index: 10;
+  top: 60px;
+  left: 300px; }
+
+.rewiews__data {
+  padding: 14px; }
+
+.location_adress {
+  color: white;
+  font-size: 12px;
+  padding: 12px;
+  align-items: center; }
+
+.location_adress::before {
+  content: url("./img/map-mini.png"); }
+
+.close {
+  padding: 14px;
+  cursor: pointer; }
+
+.rewiew__place {
+  height: 45px;
+  background-color: #ff8663;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between; }
+
+.rewiew__title {
+  color: #ff8663;
+  text-transform: uppercase; }
+
+.rewiew__input {
+  height: 32px;
+  border: 1px solid #c4c4c4;
+  border-radius: 15px;
+  padding-left: 16px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 15px;
+  outline: none; }
+
+.rewiew__text {
+  height: 130px; }
+
+::-webkit-input-placeholder {
+  font-family: 'Fira Sans'; }
+
+.add__button {
+  background-color: #ff8663;
+  width: 86px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0;
+  color: white;
+  margin: 15px;
+  float: right; }
+
+textarea {
+  resize: none;
+  border: none;
+  overflow: auto;
+  outline: none; }
+
+::-webkit-scrollbar {
+  width: 5px; }
+
+::-webkit-scrollbar-track {
+  background: none;
+  cursor: pointer; }
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 3px;
+  cursor: pointer; }
 
 /*# sourceMappingURL=index.css.map */

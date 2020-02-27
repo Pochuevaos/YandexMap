@@ -4,22 +4,48 @@
     <meta charset="UTF-8">
     <title>Карты</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ea42f3a4-a928-4c61-9187-ad57aba243fd&lang=ru_RU"
+            type="text/javascript">
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+
 </head>
 <body>
-     <div class="title">
-        Тестовый проект школы loftschool
-    </div>
-     <div>
-         Приложение представляет из себя яндекс-карту.
-         
-     </div>
-     <div>На карте можно выбирать объекты и оставлять отзывы о них.</div>
-
+<section class="map">
     <div id="map" class="map">
-
+        <div class="rewiew">
+            <div class="rewiew__place">
+                <div class="location_adress">
+                    yrtcrbq 32 3335555
+                </div>
+                <img class="close" src="./img/close.png" alt="close">
+            </div>
+            <div class="rewiews__data">
+        <textarea name="rewiew__text" id="" style="font-family: 'Fira Sans';width:100%; height:120px;">Отзывов пока нет...
+        </textarea>
+                <div class="rewiew__inputs">
+                    <img src="./img/shape.png" alt="">
+                    <div class="rewiew__title">ваш отзыв</div>
+                    <div class="rewiew__panel">
+                        <div class="panel__item1">
+                            <input type="text" class="rewiew__input name" placeholder="Ваше имя">
+                        </div>
+                        <div class="panel__item2">
+                            <input type="text" class="rewiew__input place" placeholder="Укажите место">
+                        </div>
+                        <div class="panel__item3">
+                            <input type="text" class="rewiew__input rewiew__text" placeholder="Поделитесь впечатлениями">
+                        </div>
+                    </div>
+                </div>
+                <button class="add__button">Добавить</button>
+            </div>
+        </div>
     </div>
 
-    <script defer src="index.js"></script>
+</section>
 
+<script defer src="index.js"></script>
+ <script defer src="2.js"></script>
 </body>
 </html>
