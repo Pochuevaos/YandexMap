@@ -122,3 +122,23 @@ textarea {
   cursor: pointer;
 }
 
+.map__balloon {
+  background-color: brown;
+}
+
+.orange {
+  background-color: orange;
+  width: 400px;
+}
+
+.rewiew1 {
+  background-color: orange;
+  width: 380px;
+  height: 530px;
+  border-radius: 3%;
+  display: block;
+  position: absolute;
+  z-index: 10;
+  top: 60px;
+  left: 300px;
+}
